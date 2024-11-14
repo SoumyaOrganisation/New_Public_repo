@@ -12,6 +12,7 @@ const logger = require('./logger'); // Custom logger module for logging
 const app = express();
 const port = 5000;
 
+
 // SSL Certificate configuration
 const privateKey = fs.readFileSync('C:\\Users\\Adminuser\\Desktop\\STAR_netcon_in_2024\\netcon.in_2024-private.key', 'utf8');
 const certificate = fs.readFileSync('C:\\Users\\Adminuser\\Desktop\\STAR_netcon_in_2024\\STAR_netcon_in.crt', 'utf8');
